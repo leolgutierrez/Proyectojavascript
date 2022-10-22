@@ -1,0 +1,42 @@
+*{
+  margin: 0px;
+  border: 0px;
+}
+
+
+.ejemplo{
+  
+}
+.logo{
+    display:flex;
+    align-items: center;
+    /* acordate que tenemos que alinear tanto en el flex padre como en el flex hijo que es este  
+    Puesto que este flex hijo tiene su propio contenido a alinear */
+  }
+  .logo-img{
+    height: 60px;
+    width: 60px;
+  }
+  .logo-nombre{
+    font-family:cursive;
+  }
+  .header-nav{
+    display: flex;
+  }
+  .nav-link-head{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+  }
+  header{
+    display:flex;
+    min-height: 70px; /*    */
+    background-color: #E63946;
+    justify-content: space-between;
+    align-items: center;   /*  para alinearlos verticalmente a los elementos, el alig, todos al medio en este caso*/
+   padding: 20px;
+  }
+  nav a{
+    font-weight: 600;
+    padding-right: 10px;
+    color: black;
+  }
